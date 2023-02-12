@@ -26,4 +26,4 @@ unzip main.zip
 echo "copiando o arquivo extraído para o diretório do apache2"
 ##
 cd linux-site-dio-main #abrindo o diretório linux-site-dio-main# 
-cp -R */ /var/www/html/ #copiando os arquivos do diretório linux-site-dio-main para o diretório /var/www/html/#
+cp -R * /var/www/html/ #copiando os arquivos do diretório linux-site-dio-main para o diretório /var/www/html/#
